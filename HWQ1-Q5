@@ -1,0 +1,44 @@
+// AppWorks School Homework of Android - Week 3
+
+Q1. What is​Encapsulation? Try to list out the benefits of Encapsulation.
+-> Encapsulation is to wrap variables, methods or classes and prevent them from being called or
+   modified by unwanted objects. By this, the role of the objects are clarified to other objects,
+   and also prevent unwanted access by client.
+   The benefits of Encapsulation are
+   1. Making the code more readable.
+   2. Simplify the maintenance of the code.
+   3. Making data safer.
+
+
+Q2. Try to explain what is​enum and why we use them.
+-> Some type of objects have only certain values, and enum class can be implement here.  It also
+   provides a type-safe enum so no other value can be assigned.
+
+
+Q3. How to use​enum in Kotlin? Attach a sample code that use enum in Kotlin.
+-> Enums are instance in a Enum class and can take properties in Enum class.
+   Example:
+
+    enum class DAYS(val isWeekend: Boolean = false){
+        SUNDAY(true),
+        MONDAY,
+        TUESDAY,
+        WEDNESDAY,
+        THURSDAY,
+        FRIDAY,
+        SATURDAY(true);
+        {
+
+
+Q4. What are the​differences between​LinearLayout and​RelativeLayout​? Try to explain in details.
+-> Layout: LinearLayout provides alignment in vertical or horizontal orientation, child-views are
+   displayed one after another with the provided orientation.
+
+   RelativeLayout on the other hand, provide a more flexible positioning by assigning the relative
+   position of two views.
+
+
+Q5. Try to explain the benefits of​ConstraintLayout. Why you should use it?
+-> With ConstraintLayout, a complex layout can be achieved with lesser viewgroup by creating a flat
+   view hierarchy, resulting improving the performance.
+
